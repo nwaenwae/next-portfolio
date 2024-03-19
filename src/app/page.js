@@ -1,4 +1,5 @@
 "use client";
+
 import Link from "next/link";
 import Image from "next/image";
 import profilePic from "../../public/images/profile.png";
@@ -9,9 +10,11 @@ import Layout from "@/components/Layout";
 import HireMe from "@/components/HireMe";
 
 const descriptionList = ["Nwae Nandar Aung", "a Frontend Developer"];
+
 const Home = () => {
   const { typedDescription, phase, selectedDescription } =
     useTypedDescription(descriptionList);
+
   return (
     <main className="flex items-center text-dark w-full min-h-screen">
       <Layout className="pt-0">
@@ -26,7 +29,7 @@ const Home = () => {
           <div className="w-1/2">
             <div className="w-full mx-auto py-2 flex items-center justify-center text-center overflow-hidden">
               <h1
-                className={`inline-block text-dark font-bold text-4xl xl:text-5xl leading-loose`}
+                className={`inline-block text-dark font-bold text-4xl xl:text-5xl`}
               >
                 Hello, I&apos;m <br />
                 <span

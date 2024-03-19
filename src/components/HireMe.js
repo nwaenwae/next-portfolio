@@ -1,6 +1,5 @@
 "use client";
 import Link from "next/link";
-import React from "react";
 import { RectangleText } from "@/utils/svg";
 
 const HireMe = () => {
