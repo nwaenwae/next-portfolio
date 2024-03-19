@@ -8,19 +8,19 @@ const Social = () => {
         href="https://www.linkedin.com/in/nwae-nandar-aung"
         className="text-[#0077b5] hover:text-primary transition-all duration-300"
       >
-        <RiLinkedinBoxFill size={30} />
+        <RiLinkedinBoxFill size={36} />
       </Link>
       <Link
         href="https://github.com/NwaeNwae"
         className="hover:text-primary transition-all duration-300"
       >
-        <RiGithubFill size={30} />
+        <RiGithubFill size={36} />
       </Link>
       <Link
         href="https://line.me/ti/p/7-3F98NRwB"
         className="text-[#06c755] hover:text-primary transition-all duration-300"
       >
-        <RiLineFill size={30} />
+        <RiLineFill size={36} />
       </Link>
     </div>
   );

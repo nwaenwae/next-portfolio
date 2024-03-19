@@ -1,17 +1,19 @@
 import Image from "next/image";
+import logo2 from "../../public/images/logo-2.png";
+
 import Link from "next/link";
 import Social from "./Social";
 
 const Header = () => {
   return (
-    <header className="absolute z-30 w-full flex items-center px-16 xl:px-0 xl:h-[90px]">
+    <header className="absolute z-30 w-full flex items-center pt-5 xl:h-[90px]">
       <div className="container mx-auto">
-        <div className="flex flex-col lg:flex-row justify-between items-center">
+        <div className="flex flex-row justify-between items-center mx-10">
           <Link href="/">
             <Image
-              src="/images/logo.png"
-              width={150}
-              height={50}
+              src={logo2}
+              width={80}
+              height={80}
               alt="logo"
               className="pb-2"
             />
