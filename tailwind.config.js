@@ -8,19 +8,18 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        circularLight:
+          "repeating-radial-gradient(#CC97BE 2px, #F5F5F5 5px, #F5F5F5 100px);",
       },
       fontFamily: {
         mont: ["var(--font-mont)"],
       },
       colors: {
-        dark: "#1b1b1b",
-        light: "#f5f5f5",
+        dark: "#1B1B1B",
+        light: "#F5F5F5",
         primary: "#B63E96",
         primaryDark: "#58E6D9",
-        primaryLight: "#cc97be",
+        primaryLight: "#CC97BE",
       },
       animation: {
         "spin-slow": "spin 8s linear infinite",

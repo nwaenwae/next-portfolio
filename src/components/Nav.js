@@ -4,7 +4,7 @@ import {
   HiHome,
   HiUser,
   HiIdentification,
-  HiAcademicCap,
+  HiNewspaper,
   HiEnvelope,
 } from "react-icons/hi2";
 import Link from "next/link";
@@ -14,7 +14,7 @@ export const navData = [
   { name: "home", path: "/", icon: <HiHome /> },
   { name: "about", path: "/about", icon: <HiUser /> },
   { name: "experience", path: "/experience", icon: <HiIdentification /> },
-  { name: "education", path: "/education", icon: <HiAcademicCap /> },
+  { name: "project", path: "/education", icon: <HiNewspaper /> },
   {
     name: "contact",
     path: "/contact",

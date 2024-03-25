@@ -1,8 +1,9 @@
 "use client";
 
-import { motion, useInView, useMotionValue, useSpring } from "framer-motion";
 import { useEffect, useRef } from "react";
+import { motion, useInView, useMotionValue, useSpring } from "framer-motion";
 import Layout from "@/components/Layout";
+import Education from "@/components/Education";
 
 const aboutVariants = {
   hidden: {
@@ -66,7 +67,7 @@ const About = () => {
       <main className="flex items-center justify-center w-full min-h-screen pt-28">
         <Layout>
           <motion.div
-            className="text-6xl font-bold mb-16"
+            className="text-5xl font-bold mb-16"
             variants={aboutVariants}
             initial="hidden"
             animate="visible"
@@ -134,10 +135,13 @@ const About = () => {
                   <AnimatedNumbers value={8} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize text-dark/75">
-                  learning time per week
+                  learning time/week
                 </h2>
               </div>
             </div>
+          </div>
+          <div className="mb-56 mt-24">
+            <Education />
           </div>
         </Layout>
       </main>

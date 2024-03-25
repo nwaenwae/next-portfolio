@@ -1,6 +1,5 @@
 import Image from "next/image";
 import logo2 from "../../public/images/logo-2.png";
-
 import Link from "next/link";
 import Social from "./Social";
 
@@ -12,8 +11,8 @@ const Header = () => {
           <Link href="/">
             <Image
               src={logo2}
-              width={80}
-              height={80}
+              width={60}
+              height={60}
               alt="logo"
               className="pb-2"
             />
