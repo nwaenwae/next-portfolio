@@ -11,6 +11,7 @@ const Details = ({ title, company, companyLink, time, address, work }) => {
     >
       <LiIcon reference={ref} />
       <motion.div
+        className="pl-12 md:pl-0"
         initial={{ y: 50 }}
         whileInView={{ y: 0 }}
         transition={{ duration: 1.5, type: "spring" }}

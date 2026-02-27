@@ -7,7 +7,6 @@ import useTypedDescription from "@/hooks/useTypedDescription";
 import cn from "classnames";
 import { FaLink } from "react-icons/fa";
 import Layout from "@/components/Layout";
-import HireMe from "@/components/HireMe";
 
 const descriptionList = ["Nwae Nandar Aung", "a Frontend Developer"];
 
@@ -18,7 +17,7 @@ const Home = () => {
   return (
     <main className="flex items-center text-dark w-full min-h-screen">
       <Layout className="pt-0 pb-20 xl:pb-0">
-        <div className="flex flex-col-reverse md:flex-row items-center justify-center w-full gap-8 md:gap-0">
+        <div className="flex flex-col-reverse md:flex-row items-center justify-center w-full gap-8 md:gap-0 pt-24 md:pt-0 mb-0 md:mb-12 lg:mb-0">
           <div className="w-full md:w-1/2 flex justify-center">
             <Image
               src={profilePic}
@@ -69,7 +68,6 @@ const Home = () => {
           </div>
         </div>
       </Layout>
-      <HireMe />
     </main>
   );
 };
