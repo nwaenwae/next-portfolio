@@ -17,11 +17,36 @@ const Skill = ({ name, x, y }) => {
   );
 };
 
+const skillNames = [
+  "HTML", "CSS", "JavaScript", "TypeScript", "React.js", "Vue.js",
+  "Next.js", "Nuxt.js", "Tailwind CSS", "Bootstrap", "Laravel",
+  "PHP", "Dart", "Flutter", "Firebase", "Git", "AWS",
+];
+
 const Skills = () => {
   return (
     <>
-      <h2 className="font-bold text-5xl mt-32 w-full text-center">Skills</h2>
-      <div className="w-full h-screen relative flex items-center justify-center rounded-full bg-circularLight mb-56">
+      <h2 className="font-bold text-3xl sm:text-5xl mt-16 md:mt-32 w-full text-center">Skills</h2>
+
+      {/* Mobile / tablet: flex-wrap pill list */}
+      <div className="flex md:hidden flex-wrap justify-center gap-3 mt-8 mb-16 px-2">
+        {skillNames.map((name) => (
+          <motion.span
+            key={name}
+            className="rounded-full font-semibold bg-primary text-light py-2 px-5 shadow-dark cursor-pointer text-sm"
+            whileHover={{ scale: 1.1 }}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.4 }}
+            viewport={{ once: true }}
+          >
+            {name}
+          </motion.span>
+        ))}
+      </div>
+
+      {/* Desktop: orbital layout */}
+      <div className="hidden md:flex w-full h-screen relative items-center justify-center rounded-full bg-circularLight mb-56">
         <motion.div
           className="flex items-center justify-center rounded-full font-semibold bg-dark text-light p-8 shadow-dark cursor-pointer"
           whileHover={{ scale: 1.05 }}

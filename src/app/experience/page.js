@@ -15,12 +15,12 @@ const Experience = () => {
 
   return (
     <main className="flex items-center justify-center w-full min-h-screen pt-28">
-      <Layout>
+      <Layout className="pb-20 xl:pb-0">
         <div>
-          <h2 className="font-bold text-5xl mb-16 w-full text-center">
+          <h2 className="font-bold text-3xl sm:text-5xl mb-10 md:mb-16 w-full text-center">
             Experience
           </h2>
-          <div ref={ref} className="w-[75%] mx-auto relative">
+          <div ref={ref} className="w-full md:w-[75%] mx-auto relative">
             <motion.div
               style={{ scaleY: scrollYProgress }}
               className="absolute left-7 top-0 w-[4px] h-full bg-primaryLight origin-top"

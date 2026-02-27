@@ -65,9 +65,9 @@ const About = () => {
   return (
     <>
       <main className="flex items-center justify-center w-full min-h-screen pt-28">
-        <Layout>
+        <Layout className="pb-20 xl:pb-0">
           <motion.div
-            className="text-5xl font-bold mb-16"
+            className="text-3xl sm:text-5xl font-bold mb-10 md:mb-16"
             variants={aboutVariants}
             initial="hidden"
             animate="visible"
@@ -75,14 +75,14 @@ const About = () => {
           >
             About me?
           </motion.div>
-          <div className="grid w-full grid-cols-8 gap-16 pb-10">
+          <div className="grid w-full grid-cols-1 md:grid-cols-8 gap-8 md:gap-16 pb-10">
             <motion.div
-              className="col-span-6 flex flex-col items-start justify-start"
+              className="col-span-1 md:col-span-6 flex flex-col items-start justify-start"
               variants={paragraphVariants}
               initial="hidden"
               animate="visible"
             >
-              <p className="font-medium">
+              <p className="font-medium text-sm sm:text-base">
                 Hi, I am Nwae Nandar Aung. I am a passionate Frontend Developer
                 with 3 years of professional experience. Designing and
                 developing user-friendly solutions is not only my job but also
@@ -93,19 +93,19 @@ const About = () => {
                 JavaScript and JavaScript libraries with focus on performance
                 optimization.
               </p>
-              <p className="font-medium mt-4">
+              <p className="font-medium mt-4 text-sm sm:text-base">
                 While keeping user experience and interaction at the core of my
                 designing process, I always follow the latest trends and details
                 in frontend web technologies to enhance usability and
                 functionality.
               </p>
-              <p className="font-medium mt-4">
+              <p className="font-medium mt-4 text-sm sm:text-base">
                 While keeping user experience and interaction at the core of my
                 designing process, I always follow the latest trends and details
                 in frontend web technologies to enhance usability and
                 functionality.
               </p>
-              <p className="font-medium my-4">
+              <p className="font-medium my-4 text-sm sm:text-base">
                 A lifelong learner, I always keep myself updated with the latest
                 industry trends and actively participate in relevant
                 communities. This journey is about constant growth, learning,
@@ -113,34 +113,34 @@ const About = () => {
                 with.
               </p>
             </motion.div>
-            <div className="col-span-2 flex flex-col justify-between">
-              <div className="flex flex-col items-end justify-center">
-                <span className="inline-block text-5xl font-bold text-primary">
+            <div className="col-span-1 md:col-span-2 flex flex-row md:flex-col justify-around md:justify-between gap-4 md:gap-0">
+              <div className="flex flex-col items-center md:items-end justify-center">
+                <span className="inline-block text-3xl sm:text-5xl font-bold text-primary">
                   <AnimatedNumbers value={3} />+
                 </span>
-                <h2 className="text-xl font-medium capitalize text-dark/75">
+                <h2 className="text-sm sm:text-xl font-medium capitalize text-dark/75 text-center md:text-right">
                   years of experience
                 </h2>
               </div>
-              <div className="flex flex-col items-end justify-center">
-                <span className="inline-block text-5xl font-bold text-primary">
+              <div className="flex flex-col items-center md:items-end justify-center">
+                <span className="inline-block text-3xl sm:text-5xl font-bold text-primary">
                   <AnimatedNumbers value={15} />+
                 </span>
-                <h2 className="text-xl font-medium capitalize text-dark/75 ">
+                <h2 className="text-sm sm:text-xl font-medium capitalize text-dark/75 text-center md:text-right">
                   project contributed
                 </h2>
               </div>
-              <div className="flex flex-col items-end justify-center">
-                <span className="inline-block text-5xl font-bold text-primary">
+              <div className="flex flex-col items-center md:items-end justify-center">
+                <span className="inline-block text-3xl sm:text-5xl font-bold text-primary">
                   <AnimatedNumbers value={8} />+
                 </span>
-                <h2 className="text-xl font-medium capitalize text-dark/75">
+                <h2 className="text-sm sm:text-xl font-medium capitalize text-dark/75 text-center md:text-right">
                   learning time/week
                 </h2>
               </div>
             </div>
           </div>
-          <div className="mb-56 mt-24">
+          <div className="mb-24 md:mb-56 mt-12 md:mt-24">
             <Education />
           </div>
         </Layout>

@@ -4,7 +4,7 @@ import { RectangleText } from "@/utils/svg";
 
 const HireMe = () => {
   return (
-    <div className="fixed left-4 bottom-4 flex items-center justify-center overflow-hidden">
+    <div className="hidden md:flex fixed left-4 bottom-4 items-center justify-center overflow-hidden">
       <div className="w-48 h-auto flex items-center justify-center relative animate-spin-slow">
         <RectangleText />
         <Link

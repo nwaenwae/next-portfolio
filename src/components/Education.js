@@ -26,14 +26,14 @@ const Education = () => {
   return (
     <>
       <motion.h2
-        className="font-bold text-5xl mb-16 w-full text-center"
+        className="font-bold text-3xl sm:text-5xl mb-10 md:mb-16 w-full text-center"
         variants={educationVariant}
         initial="hidden"
         animate="visible"
       >
         Education
       </motion.h2>
-      <div ref={ref} className="w-[75%] mx-auto relative">
+      <div ref={ref} className="w-full md:w-[75%] mx-auto relative">
         <motion.div
           style={{ scaleY: scrollYProgress }}
           className="absolute left-7 top-0 w-[4px] h-full bg-primaryLight origin-top"

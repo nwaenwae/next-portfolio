@@ -17,19 +17,19 @@ const Home = () => {
 
   return (
     <main className="flex items-center text-dark w-full min-h-screen">
-      <Layout className="pt-0">
-        <div className="flex items-center justify-center w-full">
-          <div className="w-1/2">
+      <Layout className="pt-0 pb-20 xl:pb-0">
+        <div className="flex flex-col-reverse md:flex-row items-center justify-center w-full gap-8 md:gap-0">
+          <div className="w-full md:w-1/2 flex justify-center">
             <Image
               src={profilePic}
               alt="profile-pic"
-              className="w-3/4 h-auto"
+              className="w-1/2 md:w-3/4 h-auto"
             />
           </div>
-          <div className="w-1/2">
+          <div className="w-full md:w-1/2">
             <div className="w-full mx-auto py-2 flex items-center justify-center text-center overflow-hidden">
               <h1
-                className={`inline-block text-dark font-bold text-4xl xl:text-5xl`}
+                className={`inline-block text-dark font-bold text-3xl sm:text-4xl xl:text-5xl`}
               >
                 Hello, I&apos;m <br />
                 <span
@@ -43,12 +43,12 @@ const Home = () => {
                 </span>
               </h1>
             </div>
-            <p className="my-4 text-base font-medium">
+            <p className="my-4 text-sm sm:text-base font-medium text-center md:text-left">
               As a skilled frontend developer, I am dedicated to be the bridge
               between web design and functionality, ensuring seamless user
               experiences and interactive interfaces.
             </p>
-            <div className="flex items-center self-start mt-2">
+            <div className="flex items-center justify-center md:justify-start self-start mt-2">
               <Link
                 href="/NWAE_NANDAR_AUNG_Curriculum_Vitae.pdf"
                 target="_blank"

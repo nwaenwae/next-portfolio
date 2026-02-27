@@ -7,7 +7,7 @@ const Details = ({ title, company, companyLink, time, address, work }) => {
   return (
     <li
       ref={ref}
-      className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between"
+      className="my-8 first:mt-0 last:mb-0 w-[85%] md:w-[60%] mx-auto flex flex-col items-center justify-between"
     >
       <LiIcon reference={ref} />
       <motion.div
@@ -15,7 +15,7 @@ const Details = ({ title, company, companyLink, time, address, work }) => {
         whileInView={{ y: 0 }}
         transition={{ duration: 1.5, type: "spring" }}
       >
-        <h3 className="capitalize font-bold text-2xl pb-1">
+        <h3 className="capitalize font-bold text-lg sm:text-2xl pb-1">
           {title}&nbsp;
           {company && (
             <a
