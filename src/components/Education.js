@@ -52,7 +52,7 @@ const Education = () => {
             work="Awarded Third in the World (2020) with a distinction mark of 84%. Coursework covered Agile Development, Database Design and Development, Dynamic Websites, Information Systems Analysis, Network Security and Cryptography, and Analysis, Design and Implementation."
           />
           <Details
-            title="Level 4 Diploma in Computing (L4DC)"
+            title="Level 4 Diploma in Computing (L6DC)"
             time="September 2017 - September 2018"
             address="NCC Education, UK"
             work="Completed with a distinction mark of 79%. Coursework spanned Skills for Computing, Computer Systems, Computer Networks, Designing and Developing a Website, Databases, Software Development Techniques, and Office Solutions Development."
