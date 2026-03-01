@@ -32,7 +32,7 @@ const Experience = () => {
                 company="Codetism Co., Ltd"
                 time="August 2022 - Present"
                 address="Bangkok, Thailand"
-                work="Work in a team responsible on developing new features for existing new projects and new projects (mainly for the frontend part). Hand-on experience with web application and mobile application including admin system, learning investment platform, company portfolio, broadcast messaging, point transaction and redemption, push notification and so on."
+                work="Developing and maintaining web and mobile applications across a range of client projects, with a focus on the frontend. Delivered features spanning admin dashboards, investment learning platforms, broadcast messaging, point transaction and redemption systems, and push notifications. Working primarily with Vue.js, Nuxt.js, and Flutter."
               />
               <Details
                 title="Web Developer"
@@ -40,14 +40,14 @@ const Experience = () => {
                 company="AGGA.IO Co., Ltd"
                 time="January 2022 - August 2022"
                 address="Yangon, Myanmar"
-                work="Work in a team responsible as a frontend developer for developing a Lab Management system (Hospital Laboratory). Convert the UI design into the responsive and interactive web application. Experience in producing barcode based on the patientId, integration with the barcode scanner, creating multi-step form and creating admin dashboard."
+                work="Worked as a frontend developer on a Hospital Laboratory Management System, converting UI designs into responsive and interactive web interfaces. Implemented barcode generation based on patient IDs, integrated barcode scanner support, built multi-step forms, and developed the admin dashboard."
               />
               <Details
                 title="Junior Web Developer"
                 company="Seattle Consulting Myanmar Co., Ltd"
                 time="December 2020 - August 2021"
                 address="Yangon, Myanmar"
-                work="After being a trainee in more than 5 OJT projects, be a permanent team member responsible for developing web application (either the fullstack web application development or only API backend development). Get familiarity with Clean Architecture Approach and Domain Driven Design Approach for designing and structuring the source code in a clean and organized way."
+                work="Started as a trainee across 5+ OJT projects before joining as a permanent team member. Contributed to both full-stack web application development and API backend development. Gained solid grounding in Clean Architecture and Domain-Driven Design for writing well-structured, maintainable code."
               />
             </ul>
           </div>

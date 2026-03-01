@@ -83,40 +83,31 @@ const About = () => {
               animate="visible"
             >
               <p className="font-medium text-sm sm:text-base">
-                Hi, I am Nwae Nandar Aung. I am a passionate Frontend Developer
-                with 3 years of professional experience. Designing and
-                developing user-friendly solutions is not only my job but also
-                my passion. I have a deep understanding of JavaScript and its
-                modern libraries and frameworks, namely React.js and Vue.js. I
-                am proficient in translating designs and wireframes into
-                high-quality code, and writing application interface code via
-                JavaScript and JavaScript libraries with focus on performance
-                optimization.
+                Hi, I&apos;m Nwae Nandar Aung — a Frontend Engineer with 5+
+                years of professional experience building responsive, performant
+                web and mobile applications. My core stack spans Vue.js,
+                React.js, Flutter, and React Native, and I take pride in
+                translating designs into clean, high-quality code that feels
+                great to use.
               </p>
               <p className="font-medium mt-4 text-sm sm:text-base">
-                While keeping user experience and interaction at the core of my
-                designing process, I always follow the latest trends and details
-                in frontend web technologies to enhance usability and
-                functionality.
-              </p>
-              <p className="font-medium mt-4 text-sm sm:text-base">
-                While keeping user experience and interaction at the core of my
-                designing process, I always follow the latest trends and details
-                in frontend web technologies to enhance usability and
-                functionality.
+                I approach every project with user experience at the forefront
+                — balancing visual polish with technical performance. Whether
+                it&apos;s a campaign landing page, a cross-platform mobile app,
+                or a complex web platform, I focus on writing maintainable code
+                that scales.
               </p>
               <p className="font-medium my-4 text-sm sm:text-base">
-                A lifelong learner, I always keep myself updated with the latest
-                industry trends and actively participate in relevant
-                communities. This journey is about constant growth, learning,
-                and positive contributions to the teams and products I work
-                with.
+                I&apos;m a lifelong learner who stays current with the evolving
+                frontend landscape. I thrive in collaborative environments and
+                find real satisfaction in contributing to products that make a
+                meaningful difference to the people who use them.
               </p>
             </motion.div>
             <div className="col-span-1 md:col-span-2 flex flex-row md:flex-col justify-around md:justify-between gap-4 md:gap-0">
               <div className="flex flex-col items-center md:items-end justify-center">
                 <span className="inline-block text-3xl sm:text-5xl font-bold text-primary">
-                  <AnimatedNumbers value={3} />+
+                  <AnimatedNumbers value={5} />+
                 </span>
                 <h2 className="text-sm sm:text-xl font-medium capitalize text-dark/75 text-center md:text-right">
                   years of experience
@@ -124,7 +115,7 @@ const About = () => {
               </div>
               <div className="flex flex-col items-center md:items-end justify-center">
                 <span className="inline-block text-3xl sm:text-5xl font-bold text-primary">
-                  <AnimatedNumbers value={15} />+
+                  <AnimatedNumbers value={20} />+
                 </span>
                 <h2 className="text-sm sm:text-xl font-medium capitalize text-dark/75 text-center md:text-right">
                   project contributed

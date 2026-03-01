@@ -8,7 +8,7 @@ import cn from "classnames";
 import { FaLink } from "react-icons/fa";
 import Layout from "@/components/Layout";
 
-const descriptionList = ["Nwae Nandar Aung", "a Frontend Developer"];
+const descriptionList = ["Nwae Nandar Aung", "a Frontend Engineer"];
 
 const Home = () => {
   const { typedDescription, phase, selectedDescription } =
@@ -43,9 +43,10 @@ const Home = () => {
               </h1>
             </div>
             <p className="my-4 text-sm sm:text-base font-medium text-center md:text-left">
-              As a skilled frontend developer, I am dedicated to be the bridge
-              between web design and functionality, ensuring seamless user
-              experiences and interactive interfaces.
+              A frontend engineer with 5+ years of experience crafting
+              responsive, performant web and mobile applications. I specialise
+              in Vue.js, React.js, Flutter, and React Native, turning designs
+              into polished, user-centred experiences across every platform.
             </p>
             <div className="flex items-center justify-center md:justify-start self-start mt-2">
               <Link
